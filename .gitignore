@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.idea/
+.vscode/
+# Local source materials and experimental data are not part of this prototype.
+private/
+data/
+*.mat
+*.pdf
