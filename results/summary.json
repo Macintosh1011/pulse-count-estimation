@@ -1,0 +1,809 @@
+[
+  {
+    "family": "count",
+    "value": 1,
+    "noise_std": 0,
+    "true_count": 1,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 1.0,
+    "histogram": {
+      "1": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "count",
+    "value": 2,
+    "noise_std": 0,
+    "true_count": 2,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 2.0,
+    "histogram": {
+      "2": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "count",
+    "value": 3,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "count",
+    "value": 4,
+    "noise_std": 0,
+    "true_count": 4,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 4.0,
+    "histogram": {
+      "4": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "count",
+    "value": 5,
+    "noise_std": 0,
+    "true_count": 5,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 5.0,
+    "histogram": {
+      "5": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "spacing",
+    "value": 15,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 30,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 45,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 60,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 90,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "spacing",
+    "value": 105,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "length",
+    "value": 350,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "length_overlap",
+    "value": 350,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "length",
+    "value": 700,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "length_overlap",
+    "value": 700,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "length",
+    "value": 1400,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "length_overlap",
+    "value": 1400,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 0.1,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 0.25,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 0.5,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 1,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 5,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 10,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 15,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 20,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 1
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 30,
+    "noise_std": 0,
+    "true_count": 3,
+    "trials": 1,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 7.0,
+    "histogram": {
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "count",
+    "value": 1,
+    "noise_std": 0.03,
+    "true_count": 1,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 1.0,
+    "histogram": {
+      "1": 100
+    },
+    "half_penalty_accuracy": 0.97
+  },
+  {
+    "family": "count",
+    "value": 2,
+    "noise_std": 0.03,
+    "true_count": 2,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 2.0,
+    "histogram": {
+      "2": 100
+    },
+    "half_penalty_accuracy": 0.98
+  },
+  {
+    "family": "count",
+    "value": 3,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 0.99
+  },
+  {
+    "family": "count",
+    "value": 4,
+    "noise_std": 0.03,
+    "true_count": 4,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 4.0,
+    "histogram": {
+      "4": 100
+    },
+    "half_penalty_accuracy": 0.99
+  },
+  {
+    "family": "count",
+    "value": 5,
+    "noise_std": 0.03,
+    "true_count": 5,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 5.0,
+    "histogram": {
+      "5": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "spacing",
+    "value": 15,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 5.66,
+    "histogram": {
+      "5": 53,
+      "6": 28,
+      "7": 19
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 30,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 6.82,
+    "histogram": {
+      "5": 1,
+      "6": 16,
+      "7": 83
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 45,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 6.91,
+    "histogram": {
+      "6": 9,
+      "7": 91
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 60,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 16,
+    "accuracy": 0.16,
+    "mean_count": 4.1,
+    "histogram": {
+      "3": 16,
+      "4": 68,
+      "5": 8,
+      "6": 6,
+      "7": 2
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "spacing",
+    "value": 90,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "spacing",
+    "value": 105,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "length",
+    "value": 350,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "length_overlap",
+    "value": 350,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 16,
+    "accuracy": 0.16,
+    "mean_count": 4.1,
+    "histogram": {
+      "3": 16,
+      "4": 68,
+      "5": 8,
+      "6": 6,
+      "7": 2
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "length",
+    "value": 700,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 0.99
+  },
+  {
+    "family": "length_overlap",
+    "value": 700,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 19,
+    "accuracy": 0.19,
+    "mean_count": 4.0,
+    "histogram": {
+      "3": 19,
+      "4": 69,
+      "5": 6,
+      "6": 5,
+      "7": 1
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "length",
+    "value": 1400,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 0.99
+  },
+  {
+    "family": "length_overlap",
+    "value": 1400,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 23,
+    "accuracy": 0.23,
+    "mean_count": 3.91,
+    "histogram": {
+      "3": 23,
+      "4": 68,
+      "5": 4,
+      "6": 5
+    },
+    "half_penalty_accuracy": 0.01
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 0.1,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 0.25,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 0.5,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "weak_amplitude",
+    "value": 1,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 5,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 0.96
+  },
+  {
+    "family": "width",
+    "value": 10,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 15,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 20,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "width",
+    "value": 30,
+    "noise_std": 0.03,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_count": 6.47,
+    "histogram": {
+      "5": 12,
+      "6": 29,
+      "7": 59
+    },
+    "half_penalty_accuracy": 0.0
+  },
+  {
+    "family": "noise",
+    "value": 0.01,
+    "noise_std": 0.01,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "noise",
+    "value": 0.1,
+    "noise_std": 0.1,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "noise",
+    "value": 0.2,
+    "noise_std": 0.2,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "mean_count": 3.0,
+    "histogram": {
+      "3": 100
+    },
+    "half_penalty_accuracy": 1.0
+  },
+  {
+    "family": "noise",
+    "value": 0.4,
+    "noise_std": 0.4,
+    "true_count": 3,
+    "trials": 100,
+    "correct": 92,
+    "accuracy": 0.92,
+    "mean_count": 2.92,
+    "histogram": {
+      "2": 8,
+      "3": 92
+    },
+    "half_penalty_accuracy": 0.99
+  }
+]

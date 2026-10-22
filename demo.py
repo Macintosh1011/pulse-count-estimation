@@ -13,7 +13,7 @@ NOISE_STD = 0.0  # Start noiseless; try 0.03 next.
 MAX_PULSES = 7
 
 
-def estimate_count(received, width, max_pulses):
+def estimate_count(received, width, max_pulses, *, return_diagnostics=False):
     """Fit candidate counts without knowing the true centers or amplitudes."""
     n = len(received)
     samples = np.arange(n)
@@ -21,7 +21,7 @@ def estimate_count(received, width, max_pulses):
     templates = np.exp(-0.5 * ((samples[:, None] - samples[None, :]) / width) ** 2)
     norms = np.linalg.norm(templates, axis=0)
     residual = received.copy()
-    centers, scores, reconstructions = [], [], []
+    centers, scores, reconstructions, diagnostics = [], [], [], []
     # A shared numerical floor avoids log(0) for exact noiseless fits.
     floor = max(np.mean(received ** 2) * 1e-12, np.finfo(float).tiny)
 
@@ -36,16 +36,25 @@ def estimate_count(received, width, max_pulses):
         amplitudes = np.linalg.lstsq(selected, received, rcond=None)[0]
         reconstruction = selected @ amplitudes
         residual = received - reconstruction
-        mse = max(np.sum(residual ** 2) / n, floor)
+        rss = float(np.sum(residual ** 2))
+        mse = max(rss / n, floor)
 
         # Matches the supplied MATLAB scripts: k delays, k amplitudes, variance.
         parameters = 2 * k + 1
-        mdl = parameters * np.log(n) + (n / 2) * np.log(mse)
+        penalty = parameters * np.log(n)
+        error_term = (n / 2) * np.log(mse)
+        mdl = penalty + error_term
+        diagnostics.append(dict(k=k, rss=rss, mse=rss / n, floor=floor,
+                                floor_active=bool(rss / n <= floor),
+                                penalty=float(penalty), error_term=float(error_term),
+                                mdl=float(mdl), centers=centers.copy(),
+                                amplitudes=amplitudes.tolist()))
         scores.append(mdl)
         reconstructions.append(reconstruction)
 
     best = int(np.argmin(scores))
-    return best + 1, np.array(scores), reconstructions[best]
+    result = (best + 1, np.array(scores), reconstructions[best])
+    return (*result, diagnostics) if return_diagnostics else result
 
 
 def main():

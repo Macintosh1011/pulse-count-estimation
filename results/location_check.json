@@ -1,0 +1,15 @@
+{
+  "true_centers": [
+    145,
+    175,
+    205
+  ],
+  "greedy_centers": [
+    158,
+    200,
+    130
+  ],
+  "greedy_rss": 1.100430891236491,
+  "true_center_rss": 5.0186591223640926e-29,
+  "note": "Known locations are a diagnostic only, not supplied to the estimator."
+}
